@@ -86,7 +86,7 @@
   margin-top: 1rem;
 }
 
-.discussionForm button[type="submit"] {
+.discussionForm button[type='submit'] {
   padding: 1rem 1.5rem;
   margin-top: 1rem;
   border-radius: 8px;
@@ -98,8 +98,13 @@
   transition: background-color 0.2s;
 }
 
-.discussionForm button[type="submit"]:hover {
+.discussionForm button[type='submit']:not(:disabled)hover {
   background: var(--green-300);
+}
+
+.discussionForm button[type='submit']:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
 }
 
 .discussionForm footer {
