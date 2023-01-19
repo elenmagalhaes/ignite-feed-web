@@ -1,7 +1,7 @@
 <h1 align="center"> Ignite Feed </h1>
 
 <p align="center">
-Desafio desenvolvido em conjunto com a Rocketseat com a finalidade de aprimorar os fundamentos do ReactJS.
+Projeto desenvolvido em conjunto com a Rocketseat com a finalidade de aprimorar os conceitos de ReactJS.
 </p>
 
 <p align="center">
@@ -35,10 +35,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://pt-br.reactjs.org)
 - [CSSModules](https://github.com/css-modules/css-modules)
 - [ViteJs](https://vitejs.dev)
+- [Phosphor Icons](https://github.com/phosphor-icons/homepage)
 
 ## 💻 Projeto
 
-O projeto é um feed de rede social para postar e comentar publicações. Tem como objetivo aprimorar conceitos básicos do React.
+A aplicação trata-se um simples feed de Rede Social onde é possível efetuar postagens e comentários.
+
+## ✏ Próximos passos
+
+- [ ] Reorganizar a estrutura de pastas
+- [ ] Revalidar nomenclaturas de states, arquivos e funções
+- [ ] Desenvolver a feature de edição
 
 ## 🔖 Layout
 
