@@ -22,13 +22,13 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
 
   return (
     <div className={styles.comment}>
-      <Avatar hasBorder={false} src="https://github.com/elenmagalhaes.png" />
+      <Avatar hasBorder={false} src="https://github.com/diego3g.png" />
 
       <div className={styles.commentContent}>
         <div className={styles.commentBox}>
           <header>
             <div className={styles.authorAndTime}>
-              <strong>Elen Magalhães</strong>
+              <strong>Diego Fernandes</strong>
               <time
                 title="16 de janeiro às 21:10"
                 dateTime="2023-01-16 21:10:45"

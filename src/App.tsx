@@ -14,36 +14,18 @@ const posts = [
       role: 'Software Engineer III',
     },
     content: [
-      { type: 'paragraph', content: 'Fala galeraa 👋' },
+      { type: 'paragraph', content: 'Fala pessoal 👋' },
       {
         type: 'paragraph',
         content:
-          'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀',
+          'Acabei de subir mais um projeto no meu portifólio. É um projeto que fiz como desafio do curso de Ignite da Rocketseat. O nome do projeto é TodoList 🚀',
       },
-      { type: 'link', content: 'jane.design/doctorcare' },
+      { type: 'link', content: 'https://todo-list-app-hazel.vercel.app' },
     ],
-    publishedAt: new Date('2023-01-17 20:00:00'),
-  },
-  {
-    id: 2,
-    author: {
-      avatarUrl: 'https://github.com/diego3g.png',
-      name: 'Diego Fernandes',
-      role: 'CEO @Rocketseat',
-    },
-    content: [
-      { type: 'paragraph', content: 'Fala galeraa 👋' },
-      {
-        type: 'paragraph',
-        content:
-          'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀',
-      },
-      { type: 'link', content: 'jane.design/doctorcare' },
-    ],
-    publishedAt: new Date('2023-01-10 15:00:00'),
+    publishedAt: new Date('2023-01-22 12:00:00'),
   },
 ]
-
+console.log(posts)
 function App() {
   return (
     <div>

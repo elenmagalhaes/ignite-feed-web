@@ -1,4 +1,4 @@
-<h1 align="center"> Ignite Feed </h1>
+<h1 align="center"> IGNITE FEED </h1>
 
 <p align="center">
 Projeto desenvolvido em conjunto com a Rocketseat com a finalidade de aprimorar os conceitos de ReactJS.
@@ -7,6 +7,7 @@ Projeto desenvolvido em conjunto com a Rocketseat com a finalidade de aprimorar 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-próximos-passos">Próximos passos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>

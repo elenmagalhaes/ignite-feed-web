@@ -18,12 +18,14 @@ interface Author {
 }
 
 interface Content {
-  type: 'paragraph' | 'link'
+  type: string
   content: string
 }
 
 export function Post({ author, content, publishedAt }: PostProps) {
-  const [comments, setComments] = useState(['Post muito bacana'])
+  const [comments, setComments] = useState([
+    'Muito feliz em ver vocês participando dos projetos da Rocketseat',
+  ])
   const [newCommentText, setNewCommentText] = useState('')
 
   const publishedDateFormatted = format(
